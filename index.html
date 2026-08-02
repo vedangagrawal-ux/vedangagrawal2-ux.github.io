@@ -28,7 +28,7 @@
 
 <body>
   
-    
+
     
    
     <div class="spidey-message">
@@ -227,7 +227,7 @@
         <div class="timeline-item">
             <div class="timeline-dot"></div>
             <div class="timeline-content">
-                <h3>2025</h3>
+                <h3>2026</h3>
                 <p>
                     Successfully completed Class 12 and strengthened my passion
                     for technology and computer science.
@@ -440,7 +440,7 @@
 
             <h3>Manas Kumar Verma Sir</h3>
 
-            <h4>Co-Founder, Tensor School</h4>
+            <h4>Founder, Tensor School</h4>
 
             <p>
                 Guiding me in technology, entrepreneurship, and building a strong foundation in Computer Science.
@@ -660,5 +660,17 @@
 
     <script src="script.js"></script>
 <script src="https://cdn.emailjs.com/sdk/3.11.0/email.min.js"></script>
+<script>
+window.onload = function () {
+    setTimeout(function () {
+        document.getElementById("loader").style.opacity = "0";
+
+        setTimeout(function () {
+            document.getElementById("loader").style.display = "none";
+        }, 800);
+
+    }, 2000);
+};
+</script>
 </body>
 </html>
